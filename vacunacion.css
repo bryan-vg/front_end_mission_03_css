@@ -1,0 +1,129 @@
+body{
+    background-color: #ffffff;
+    font-family: monospace;
+}
+
+h2{
+    color: #2f4fcd;
+}
+
+.botones{
+    float: right;
+}
+
+.botones_menu_sup, .boton_azul_menu{
+    height: 30px;
+    width: 100px;
+}
+
+.botones_menu_sup{
+    color: #6d7b93;
+}
+
+.vacunacion, .enfermero{
+    float: right;
+}
+
+.text1{
+    font-size: 40px;
+}
+
+.text1, .pregunta_porque, .pregunta_preparaciones, .pregunta_contacto, .pie_titulo{
+    font-weight: bold;
+    color: #1f3e72;
+}
+
+.text2, .textos_info{
+    color: #717f96;
+}
+
+.pshield1, .pstar1{
+    font-weight: bold;
+}
+
+.tabla_encabezado, .tabla2_texto{
+    font-weight: lighter;
+    color: #6d7b93;
+}
+
+.tabla_texto, .tabla2_encabezado, summary, .tabla_contacto_encabezado, .tabla_contacto_texto, .pie_texto1, .tabla_pie_texto, .pie_texto_pie{
+    color: #1f3e72;
+}
+
+.tabla_pie_texto{
+    font-weight: lighter;
+}
+
+.boton_tabla_enviar, .boton_azul_menu, .boton_tabla_contacto_chatear{
+    background: #3630a3;
+    color: white;
+    border-radius: 3px;
+}
+
+.marcas_vacunas{
+    text-align: center;
+}
+
+.tipos_vacunas{
+    margin: 25px 10px;
+    width: 50%;
+    height: 50%;
+    background: #141414;
+    box-shadow: 0 0 15px 10px #141414;
+}
+
+.pregunta_porque, .pregunta_preparaciones, .pregunta_contacto, .pie_titulo{
+    font-size: 30px;
+}
+
+.beneficios_vacuna, .tabla_contacto{
+    text-align: left;
+    vertical-align: top;
+    border-spacing: 30px 0;
+}
+
+.tapabocas{
+    float: left;
+    padding-right: 150px;
+}
+
+/*se usa el inline block para que el texto siga en linea con los menus, y no empieze a aparecer alrededor de otros elementos, como la imagen*/
+.menus_informativos{
+    display: inline-block;
+}
+
+.boton_tabla_contacto_chatear, .boton_tabla_contacto_gen{
+    height: 30px;
+    width: 100px;
+}
+
+.boton_tabla_contacto_gen{
+    background: #f1f5ff;
+    color: #2e4ecc;
+    border-radius: 3px;
+}
+
+.tabla_contacto_encabezado{
+    font-size: 17px;
+}
+
+.tabla_contacto{
+    border-spacing: 20px;
+}
+
+.pie_pagina{
+    background-color: #eef3ff;
+}
+
+.pie_principal{
+    display: flex;
+}
+
+.cont_tabla{
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.pie_texto_pie{
+    text-align: right;
+}
